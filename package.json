@@ -1,0 +1,35 @@
+{
+  "name": "kiro-spec-workflow",
+  "version": "1.0.0",
+  "description": "A Spec Workflow MCP Server for structured development process",
+  "main": "dist/spec-workflow/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/spec-workflow/index.js",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "workflow",
+    "specification",
+    "development",
+    "requirements",
+    "design",
+    "planning"
+  ],
+  "author": "Kenzo",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "spec-workflow": {
+      "command": "node",
+      "args": ["dist/spec-workflow/index.js"],
+      "cwd": "/path/to/kiro-spec-workflow",
+      "env": {
+        "DISABLE_WORKFLOW_LOGGING": "false"
+      }
+    }
+  }
+}
